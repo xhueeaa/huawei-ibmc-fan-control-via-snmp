@@ -20,7 +20,10 @@ To do so:
 1. Log in into your iBMC
 2. Go to `Configuration` > `System`
 3. Enable `SNMPv2c`
+  ![image](https://github.com/user-attachments/assets/2438e01f-3524-4818-a99a-c6723d62801e)
 4. Enable 'SNMP agent'
+ ![image](https://github.com/user-attachments/assets/4b829f69-e2bd-4d62-8601-b830c8d29f85)
+
 5. Put a password-like value in `Read/Write Community` and in the `Confirm Read/Write Community` fields.
 6. Save
 
