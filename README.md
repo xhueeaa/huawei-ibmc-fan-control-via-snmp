@@ -5,10 +5,7 @@ CPU temperature and adjust fans.
 
 ## How to Install
 
-1. Clone this repository
-2. Put your iBMC IP and SNMP community in the `fancontrol.sh` script.
-3. Modify temperatures or fan speeds in the script, if needed.
-4. Execute `./install.sh`
+建议采用计划任务执行
 
 ## Configure iBMC
 
@@ -20,12 +17,13 @@ To do so:
 1. Log in into your iBMC
 2. Go to `Configuration` > `System`
 3. Enable `SNMPv2c`
-4. Put a password-like value in `Read/Write Community` and in the `Confirm Read/Write Community` fields.
-5. Save
+4. Enagle 'SNMP agent'
+5. Put a password-like value in `Read/Write Community` and in the `Confirm Read/Write Community` fields.
+6. Save
 
 **Warning:** Do not share your community value. It can be used to access your
 iBMC configuration and change it. It is a password.
 
 ## Systems tested with:
 
-- Huawei RH2288H v3
+- Huawei RH5288H v3
