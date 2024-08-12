@@ -3,10 +3,10 @@
 This repository contains an script and a SystemD service to periodically monitor
 CPU temperature and adjust fans.
 
-## How to Install
+## How to Run
 
-建议采用计划任务执行
-执行效果如下：
+- 建议采用计划任务执行，每30s左右运行一次脚本即可
+- 执行效果如下：
 ![image](https://github.com/user-attachments/assets/bb074b64-9407-46db-b998-b9b0b0b660a2)
 
 
