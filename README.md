@@ -6,6 +6,9 @@ CPU temperature and adjust fans.
 ## How to Install
 
 建议采用计划任务执行
+执行效果如下：
+![image](https://github.com/user-attachments/assets/bb074b64-9407-46db-b998-b9b0b0b660a2)
+
 
 ## Configure iBMC
 
